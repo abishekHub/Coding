@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ html, body{
+    padding: 2px 60px;
+    height: 100%;
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 26px;
+}
+
+nav li:hover{
+    cursor: pointer;
+    color: brown;
+}

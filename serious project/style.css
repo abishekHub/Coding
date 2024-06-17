@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(background.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: 65px;
+
+}
+nav{
+   display: flex;
+   padding: 20px 40px;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+nav li:hover{
+    cursor: pointer;
+    color: brown;
+}
+.cat{
+    margin: 125px;
+    max-width: 600px;
+}
+.cat p{
+    font-size: 20px;
+}
+.cat a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px 0px 20px 20px;
+    background-color: rgb(201, 153, 246);
+    padding: 10px;
+}
+.apple {
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.apple li:hover{
+    cursor: pointer;
+    color: black;
+}
+.ball{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 15px 0px 15px 14px;
+}
+.photo{
+    height: 525px;
+    width: 850px;
+    position: absolute;
+    left: 30%;
+    top: 28%;
+}
+.a{
+    font-size: 50px;
+    font-style: italic;
+}
+@media only screen and (max-width:775px) {
+
+.cat p{
+    font-size: 18px;   
+}
+.a{
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    top: 22%;
+}
+.photo{
+    height: 350px;
+    width: 550px;
+    position: absolute;
+    left: -8%;
+    top: 52%;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    display: none;
+}
+@media only screen and (max-width:570px) {
+
+.cat p{
+        font-size: 16px;   
+}
+a{
+    font-size: 25px;
+    font-style: italic;
+    position: absolute;
+    top: 22%;
+    padding: 5px 4px 5px 0px;
+}
+.photo{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: -10%;
+    top: 72.5%;
+    position: absolute;
+}
+}

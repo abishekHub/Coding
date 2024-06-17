@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: url(aaaaaaSKHB.webp);
+    background-size: cover;
+    height: 100vh; 
+    background-position: center;
+
+}
+nav{
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  /* background-color: rgb(216, 178, 217); */
+  /* border-radius:100px; */ 
+
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+
+}
+
+nav li:hover{
+  cursor: pointer;
+  color: red;
+}
+.content{
+  margin: 125px;
+  max-width: 600px;
+}
+.content h1{
+  font-size: 70px;
+}
+.content p{
+  font-size: 25px;
+}
+.content a{
+  display: inline-block;
+  text-decoration:none;
+  color: white;
+  padding: 12px;
+  background-color:rgb(225, 142, 18);
+  border-radius:20px 0px 20px 20px;
+  font-size: 20px;
+ }
+
+ .ball{
+  display: inline-block;
+  text-decoration:none;
+  color: white;
+  padding:12px;
+  background-color: rgb(225, 142, 18);
+  border-radius:20px 0px 20px 20px; 
+  font-size: 18px;
+
+}
+.all{
+  margin-right: 15px;
+  font-size: 18px;
+
+}
+.photo{
+/* aspect-ratio: ; */
+height:650px;
+width: 350px;
+position: absolute;
+bottom: 0%; 
+right: 10%;
+}
+

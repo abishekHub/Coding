@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: url(background2.jpg);
+    background-attachment :fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+nav li:hover{
+    cursor: pointer;
+    color: brown;
+}
+.cat{
+    margin: 125px;
+  max-width: 600px;
+}
+.cat h1{
+    font-size: 70px;
+    width: 100px;
+}
+.cat p{
+    font-size: 25px;
+}
+.cat a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: rgb(30, 90, 220);
+    border-radius: 15px 0px 20px 20px;
+}
+.apple{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.photo{
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    max-height: 100%;
+    z-index: -12px;
+}
+.ball{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color:rgb(3, 190, 190);
+    border-radius:20px 0px 20px 20px;
+}
