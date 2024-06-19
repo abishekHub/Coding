@@ -6,10 +6,10 @@ int main()
     //int b=4;
     int a;
     int b;
-    printf("Enter the value of length :\n"); 
+    printf("Enter the value of length :"); 
     scanf("%d", &a);
 
-    printf("enter the value of breadth :\n");
+    printf("enter the value of breadth :");
     scanf("%d", &b);
     printf("The area of a rectangle is %d",a*b);
     return 0;

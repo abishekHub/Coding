@@ -1,0 +1,9 @@
+this is a demo file!!
+
+git add
+git commit
+git stats
+git restore. (delete bhako fine restore hunx) (.) ko thauma file name ni idda hunx..
+git config -l --global
+
+git config -l --global alias 
